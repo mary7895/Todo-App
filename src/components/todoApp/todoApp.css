@@ -1,0 +1,38 @@
+.custom-placeholder::placeholder {
+  color: rgb(216, 210, 210) !important;
+}
+.todo-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.todo-table th,
+.todo-table td {
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+.todo-table th {
+  text-align: left;
+}
+
+.custom-placeholder {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.todo-image {
+  width: 25%;
+}
+
+.custom-placeholder::placeholder {
+  color: #6c757d;
+}
+
+.todo-table {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.completed-task {
+  text-decoration: line-through;
+}
